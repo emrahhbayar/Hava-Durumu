@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F9F7F7;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #3F72AF;
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#form {
+    margin-top: 30px;
+}
+
+input {
+
+    border: none;
+    background: none;
+    color: #F9F7F7;
+    outline: none;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 13px;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #112D4E;
+    color: #F9F7F7;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input::placeholder {
+    opacity: 0.7;
+    color: #F9F7F7;
+}
+
+#result {
+    margin: auto;
+    color: #F9F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+
+.city {
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.description {
+
+    margin-bottom: 10px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.humidity-wind {
+    font-size: 35px;
+    margin-top: 30px;
+
+}
+
+#iwind {
+    margin: 30px;
+}
+
+span {
+    margin-left: 10px;
+}
